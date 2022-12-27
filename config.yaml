@@ -1,0 +1,57 @@
+###################### Base Settings######################
+test_during_training: True
+
+### database ###
+
+MA:
+  datainfo: metadata/sr_metric_data.mat
+  im_dir: /data/Gray/Database/IQA-DB/MA
+  n_distortions: 9
+QADS:
+  datainfo: metadata/QADSfullinfo.mat
+  im_dir: E:/Gray/Database/IQA-DB/QADS
+  n_distortions: 21
+PIPAL_SRsubset:
+  datainfo: metadata/PIPAL_SRsubset_meta.mat
+  im_dir: /data/Gray/Database/IQA-DB/PIPAL_SRsubset/SR_subset
+  n_distortions: 7
+SISAR:
+  datainfo: metadata/SISAR_meta.mat
+  im_dir: /home/amax/Desktop/SRIQA_methods/SISAR/SR_Images
+  n_distortions: 6
+RealSRQ_LR2:
+  datainfo: metadata/RealSRQ_LR2_meta.mat
+  im_dir: /data/Gray/Database/IQA-DB/RealSRQ/SR_results
+  n_distortions: 10
+RealSRQ_LR3:
+  datainfo: metadata/RealSRQ_LR3_meta.mat
+  im_dir: /data/Gray/Database/IQA-DB/RealSRQ/SR_results
+  n_distortions: 9
+RealSRQ_LR4:
+  datainfo: metadata/RealSRQ_LR4_meta.mat
+  im_dir: /data/Gray/Database/IQA-DB/RealSRQ/SR_results
+  n_distortions: 8
+
+
+patch_size: 56
+n_patches: 20
+
+exp_id: 0
+
+train_ratio: 0.6
+val_ratio: 0.2
+test_ratio: 0.2
+
+### model ###
+
+
+
+MODEL:
+  TYPE: swin
+  NAME: swin_tiny_patch4_window7_128
+  DROP_PATH_RATE: 0.2
+  SWIN:
+    EMBED_DIM: 96
+    DEPTHS: [ 2, 2, 6, 2 ]
+    NUM_HEADS: [ 3, 6, 12, 24 ]
+    WINDOW_SIZE: 7
