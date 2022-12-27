@@ -23,12 +23,10 @@ All experiments are performed on Intel Xeon Silver 4210R CPU and Nvidia RTX3090 
 
 ## Citation
 If you find this work is useful for you, please cite the following paper:
->@ARTICLE{
->9999341,  
+>@ARTICLE{9999341,  
 >author={Li, Hui and Zhang, Kaibing and Niu, Zhenxing and Shi, Hongyu},  
 >journal={IEEE Signal Processing Letters},   
 >title={C<sup>2</sup>MT: A Credible and Class-Aware Multi-Task Transformer for SR-IQA},   
 >year={2022},  
 >pages={1-5},  
->doi={10.1109/LSP.2022.3232289}
->}
+>doi={10.1109/LSP.2022.3232289}}
