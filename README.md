@@ -20,7 +20,8 @@ You can run this `trainer_CL.py` for model training after necessary changes, lik
 ## Requirement
 - PyTorch 1.11.0
 
-All experiments are performed on Intel Xeon Silver 4210R CPU and Nvidia RTX3090 GPU. Noting that the results may be still not the same among different implement devices. See [randomness@Pytorch Docs](https://pytorch.org/docs/stable/notes/randomness.html).
+All experiments are performed on Intel Xeon Silver 4210R CPU and Nvidia RTX3090 GPU.
+Noting that the results may be still not the same among different implement devices. See [randomness@Pytorch Docs](https://pytorch.org/docs/stable/notes/randomness.html).
 
 ## Citation
 If you find this work is useful for you, please cite the following paper:
