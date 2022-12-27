@@ -11,7 +11,7 @@ C<sup>2</sup>MT code for the following papers:
 ### Metadata
 In this directory, we build the metadata files for the five benckmark SRIQA databases, which are used for the data loading in our program.
 
-Noting that the number of samples in SISAR is different because of the file missing in the latest version.
+Noting that the number of samples in SISAR metadata file is different to the paper because of the file missing in the latest version.
 
 ### Model
 In this directory, there are necessary utils for this program, like the network and our proposed other modules.
