@@ -2,7 +2,7 @@
 PyTorch 1.11.0 implementation of the following paper:
 
  Usage:
-    Run the JCSAN_main.py:
+    Run the trainer_CL.py:
     ```bash
     CUDA_VISIBLE_DEVICES=0 python trainer_CL.py --exp_id=0
     ```
@@ -38,10 +38,10 @@ if __name__ == "__main__":
     parser.add_argument("--seed", type=int, default=19980427)
     parser.add_argument('--batch_size', type=int, default=32,
                         help='input batch size for training (default: 32)')
-    parser.add_argument('--epochs', type=int, default=200,
-                        help='number of epochs to train (default: 200)')
+    parser.add_argument('--epochs', type=int, default=300,
+                        help='number of epochs to train (default: 300)')
     parser.add_argument('--lr', type=float, default=0.00005,
-                        help='learning rate (default: 0.001)')
+                        help='learning rate (default: 0.00005)')
     parser.add_argument('--weight_decay', type=float, default=0,
                         help='weight decay (default: 0.0)')
     parser.add_argument('--num_workers', type=int, default=0,
